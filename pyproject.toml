@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi-postgresql-crud"
+version = "0.1.0"
+description = ""
+authors = ["lizilong1993 <lizilong_whu@qq.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_postgresql_crud"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.92.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
