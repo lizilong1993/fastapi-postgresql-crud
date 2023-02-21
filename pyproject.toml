@@ -9,6 +9,13 @@ packages = [{include = "fastapi_postgresql_crud"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 fastapi = {extras = ["all"], version = "^0.92.0"}
+sqlalchemy = "^2.0.4"
+psycopg2 = "^2.9.5"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+fastapi-jwt-auth = {extras = ["asymmetric"], version = "^0.5.0"}
+alembic = "^1.9.4"
+jinja2 = "^3.1.2"
+fastapi-mail = "^1.2.5"
 
 
 [build-system]
